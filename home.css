@@ -4,6 +4,8 @@
     background-color: #39289F;
     font-family: "Poppins","Sans-serif";
     color: whitesmoke;
+    scrollbar-width: none;
+    text-decoration: none;
 }
 .txtLogo{
     position: absolute;
@@ -17,14 +19,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-a{
-    font-size: 16px;
-    border:none;
-    font-weight: normal;
-    margin-inline-start: 15px;
-    cursor: pointer;
-    text-decoration: none;
-}
 .btnContato{
     background-color: #FA9021;
     border-radius:6px;
@@ -35,7 +29,6 @@ a{
     opacity: 75%;
 }
 .btnHome{
-    background-color: transparent;
     border: none;
     padding: 10px;
     position: relative;
@@ -49,7 +42,6 @@ a{
     height: 2px; 
     background-color: #DC7000;  
 }
-
 nav {
     position: fixed; 
     top: 0; 
@@ -66,6 +58,12 @@ nav a {
     align-items: center;
     padding: 10px 20px; 
     display: inline-block;
+    margin-left: 70px;
+    font-size: 16px;
+    border:none;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
 }
 .joystick{
     position: absolute;
@@ -360,4 +358,34 @@ input{
     font-size: 13px;
 }.submitinsc:hover{
     opacity: 75%;
+}
+footer{
+    background-color: #070707;
+    height: 376px;
+    width: 100%;
+    position: absolute;
+    top:5300px;
+    padding: 60px 80px 60px 80px;
+}
+.logo2{
+    font-weight: bolder;
+    font-size: 24px;
+    position: absolute;
+    background: none;
+}
+.txtfooter{
+    display: flex;
+    flex-direction: column;
+    background:none;
+    position: relative;
+    top:70px;
+    max-width: 350px;
+    margin-bottom: 50px;
+}
+.titleaboutus{
+    font-weight: 500;
+    background: none;
+    position: absolute;
+    left: 551px;
+    top: 70px;
 }
