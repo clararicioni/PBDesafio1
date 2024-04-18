@@ -277,3 +277,87 @@ nav a {
     text-align: center;
     left: 501px;
 }
+.imgprojects{
+    position: relative;
+    top: 3300px;
+    left: 125px;
+    margin-inline-start: 27px;
+    margin-bottom: 33px;
+}
+.imgprojects2{
+    position: relative;
+    top: 3300px;
+    left: 125px;
+    margin-inline-start: 27px;
+}
+.btnSeeAll2{
+    position: absolute;
+    top: 4400px;
+    left: 685px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    padding: 15px;
+    background-color: rgba(232, 232, 232, 0.110);
+    border-radius: 10px;
+}.btnSeeAll2:hover{
+    opacity: 75%;
+}
+.txt10{
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    left: 165px;
+    top: 4550px;
+}
+.txt11{
+    font-size: 16px;
+    position: absolute;
+    top: 4650px;
+    left: 165px;
+    max-width: 550px;
+}
+.boxinscricao{
+    height: 150px;
+    width: 1170px;
+    background-color: #1C140F;
+    border-radius: 15px;
+    position: absolute;
+    top: 4800px;
+    left: 165px;
+    padding: 40px;
+}
+.titulobox{
+    background: none;
+    font-size: 30px;
+}
+.descricaobox{
+    background: none;
+    font-size: 17px;
+    max-width: 520px;
+}
+input{
+    background: none;
+    position: absolute;
+    right: 200px;
+    top: 4910px;
+    background-color: white;
+    color: #898989;
+    height: 48px;
+    width: 386px;
+    border-radius: 8px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+.submitinsc{
+    position: absolute;
+    right: 210px;
+    top: 4917px;
+    background: none;
+    background-color: #DC7000;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 13px;
+}.submitinsc:hover{
+    opacity: 75%;
+}
