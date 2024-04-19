@@ -322,11 +322,12 @@ nav a {
     position: absolute;
     top: 4800px;
     left: 165px;
-    padding: 40px;
+    padding: 50px 60px 50px 60px;
 }
 .titulobox{
     background: none;
     font-size: 30px;
+    margin-bottom: 0;
 }
 .descricaobox{
     background: none;
