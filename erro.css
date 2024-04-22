@@ -2,6 +2,7 @@
 *{
     background-color: #39289F; 
     font-family: "Poppins","Sans-serif";
+    user-select: none;
 }
 p{
     display: flex;

@@ -25,10 +25,10 @@
     <img class="global" src="img/global.png"><br>
 
     <p class="followus">Follow us</p>
-    <a class="redes" href="https://www.facebook.com"><img src="img/fbblack.png"></a>
-    <a class="redes" href="https://www.instagram.com"><img src="img/igblack.png"></a>
-    <a class="redes" href="https://www.X.com"><img src="img/ttblack.png"></a>
-    <a class="redes" href="https:/www.linkedin.com"><img src="img/inblack.png"></a>
+    <a class="redesblack" href="https://www.facebook.com"><img src="img/fbblack.png"></a>
+    <a class="redesblack" href="https://www.instagram.com"><img src="img/igblack.png"></a>
+    <a class="redesblack" href="https://www.X.com"><img src="img/ttblack.png"></a>
+    <a class="redesblack" href="https:/www.linkedin.com"><img src="img/inblack.png"></a>
 
     <img class="pip1" src="img/barra_vertical_branca.png">
     <img class="pip2" src="img/barra_vertical_branca.png"><br>
@@ -40,20 +40,21 @@
     <p class="gpsdesc">but also the leap into electronic 
         typesetting</p><br>
 
-    
     <img class="sayhello" src="img/abacontatoback.png">
     <img class="linhasuperior" src="img/linhasuperiorabacontato.png">
     <p class="txtsayhello">Say hello</p>
     <p class="txt4">Lorem Ipsum is simply dummy text of the printing .</p>
     <p class="lblFirstName">First Name</p>
     <p class="lblLastName">Last Name</p>
-    <input type="text" class="inputFN">
-    <input type="text" class="inputLN"><br>
+    <input type="text" class="inputFN" id="inputFN">
+    <input type="text" class="inputLN" id="inputLN"><br>
+    <p class="txtResultadoNome" id="txtResultadoNome"></p>
     <p class="lblEmailAddress">Email Address</p><br>
-    <input type="text" class="inputEA"><br>
+    <input type="text" class="inputEA" id="inputEA"><br>
+    <p class="txtResultadoEmail" id="txtResultadoEmail"></p>
     <p class="lblMessage">Message</p><br>
-    <textarea class="inputMessage"></textarea><br>
-    <a class="btnSubmit" href="erro.html">Get in touch</a><br>
+    <textarea class="inputMessage" id="inputMessage"></textarea><br>
+    <a class="btnSubmit" id="btnSubmit" onclick="enviarDados(), validarEmail(), validarNome()">Get in touch</a><br>
     <img class="linhainferior" src="img/linha_inferior_aba_contato.png"><br>
 
     <p class="txt5">Lorem Ipsum</p>
@@ -64,15 +65,37 @@
         <p class="descricaobox">Subscribe to receive the latest news and updates about TDA.
             We promise not to spam you! </p> 
     </div>
-    <input type="text" class="emailinscricao" placeholder="Enter email address">
-    <a class="submitinsc" href="erro.html">Continue</a>
+    <input type="text" class="emailinscricao" placeholder="Enter email address" id="inputEmail">
+    <a class="submitinsc" onclick="validarEmailSubscribe()">Continue</a>
+    <p class="txtResultadoSubscribe" id="txtResultadoSubscribe"></p>
 
     <footer>
         <p class="logo2">LOGO</p>
         <p class="txtfooter">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <p class="txtfooter">@Lorem</p>
         <p class="titleaboutus">About us</p>     
-    </footer>
+        <p class="titleaboutus">About us</p>
+        <div class="txtaboutus">
+            <span>Zeux</span>
+            <span>Portfolio</span>
+            <span>Careers</span>
+            <span>Contact us</span>
+        </div>
 
+        <p class="titlecontactus">Contact us</p>
+        <div class="txtcontactus">
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span><br>
+            <span>+908 89097 890</span>
+        </div><br>
+        <div class="redes">
+            <a href="https://www.facebook.com"><img src="img/fbico.png"></a>
+            <a href="https://www.instagram.com"><img src="img/igico.png"></a>
+            <a href="https://www.X.com"><img src="img/ttico.png"></a>
+            <a href="https:/www.linkedin.com"><img src="img/inico.png"></a>
+        </div>
+        <img class="linhahorizontal" src="img/linhahorizontal.png">
+        <p class="txtcopyright">Copyright ® 2022 prodesigner All rights Rcerved</p>
+    </footer>
+<script src="contato.js"></script>
 </body>
 </html>
