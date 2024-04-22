@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="home.css">
     <title>Home</title>
 </head>
+
 <body>
     <nav>
         <div class="botoesnav">
@@ -48,10 +49,10 @@
     <p class="txt7">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
         the industry's standard dummy text ever since the 1500s,</p>
     
-    <img class="imgdevelopment" src="img/mobile.png" alt="">
-    <img class="imgdevelopment" src="img/pc.png" alt="">
-    <img class="imgdevelopment" src="img/ps4.png" alt="">
-    <img class="imgdevelopment" src="img/VR.png" alt=""><br>
+    <img class="imgdevelopment" src="img/mobile.png">
+    <img class="imgdevelopment" src="img/pc.png">
+    <img class="imgdevelopment" src="img/ps4.png">
+    <img class="imgdevelopment" src="img/VR.png"><br>
 
     <p class="txtdevelopment">Mobile Game Development</p>
     <p class="txtdevelopment">PC Game Development</p>
@@ -75,12 +76,12 @@
     <p class="txt8">Our Recent Projects</p>
     <p class="txt9">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br>
 
-    <img class="imgprojects" src="img/proj1.png" alt="">
-    <img class="imgprojects" src="img/proj2.png" alt="">
-    <img class="imgprojects" src="img/proj3.png" alt=""><br>
-    <img class="imgprojects2" src="img/proj4.png" alt="">
-    <img class="imgprojects2" src="img/proj5.png" alt="">
-    <img class="imgprojects2" src="img/proj6.png" alt="">
+    <img class="imgprojects" src="img/proj1.png">
+    <img class="imgprojects" src="img/proj2.png">
+    <img class="imgprojects" src="img/proj3.png"><br>
+    <img class="imgprojects2" src="img/proj4.png">
+    <img class="imgprojects2" src="img/proj5.png">
+    <img class="imgprojects2" src="img/proj6.png">
 
     <a class="btnSeeAll2" href="erro.html">SEE ALL</a>
 
@@ -92,14 +93,44 @@
         <p class="descricaobox">Subscribe to receive the latest news and updates about TDA.
             We promise not to spam you! </p> 
     </div>
-    <input type="text" placeholder="Enter email address">
-    <a class="submitinsc" href="erro.html">Continue</a>
+
+    <input type="text" placeholder="Enter email address" id="inputEmail">
+    <a class="submitinsc" onclick="validarEmail()">Continue</a>
+    <p class="txtResultadoEmail" id="txtResultadoEmail"></p>
+
     <footer>
         <p class="logo2">LOGO</p>
         <p class="txtfooter">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p class="txtfooter">@Lorem</p>
-       <p class="titleaboutus">About us</p>     
+        <p class="txtfooter">@Logo</p>
+
+        <p class="titleaboutus">About us</p>
+        <div class="txtaboutus">
+            <span>Zeux</span>
+            <span>Portfolio</span>
+            <span>Careers</span>
+            <span>Contact us</span>
+        </div>
+
+        <p class="titlecontactus">Contact us</p>
+        <div class="txtcontactus">
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span><br>
+            <span>+908 89097 890</span>
+        </div><br>
+
+        <div class="redes">
+            <a href="https://www.facebook.com"><img src="img/fbico.png"></a>
+            <a href="https://www.instagram.com"><img src="img/igico.png"></a>
+            <a href="https://www.X.com"><img src="img/ttico.png"></a>
+            <a href="https:/www.linkedin.com"><img src="img/inico.png"></a>
+        </div>
+
+        <img class="linhahorizontal" src="img/linhahorizontal.png">
+
+        <p class="txtcopyright">Copyright ® 2022 prodesigner All rights Rcerved</p>
     </footer>
+    
+<script src="home.js"></script>
 
 </body>
+
 </html>

@@ -4,7 +4,8 @@
     font-family: "Poppins","Sans-serif";
     color: whitesmoke;
     scrollbar-width: none;
-}/*aumento no espaçamento entre os ícones da nav. Footer da página Home e início da pagina Contato.*/
+    user-select: none;
+}
 html{
     background: linear-gradient(180deg, rgba(34,17,231,1) 0%, rgba(56,56,55,1) 100%);
     height: 500%;
@@ -31,7 +32,6 @@ html{
     opacity: 75%;
 }
 .btnHome{
-
     border: none;
     padding: 10px;
     position: relative;
@@ -97,7 +97,7 @@ nav a {
     top:1031px;
     left: 133px;
 }
-.redes{
+.redesblack{
     display: inline-block;
     position: relative;
     top:1050px;
@@ -186,6 +186,19 @@ nav a {
     top: 1700px;
     left: 385px;
 }
+.txtResultadoEmail{
+    font-size: 12px;
+    position: absolute;
+    top: 1790px;
+    left: 385px;
+}
+.txtResultadoNome{
+    font-size: 12px;
+    position: absolute;
+    top: 1640px;
+    right: 260px;
+    max-width: 200px;
+}
 .lblMessage{
     position: absolute;
     top: 1807px;
@@ -251,6 +264,7 @@ textarea{
     border-radius: 10px;
     background-color: #DC7000;
     text-decoration: none;
+    cursor: pointer;
 }.btnSubmit:hover{
     opacity: 75%;
 }
@@ -324,8 +338,15 @@ textarea{
     border-radius: 8px;
     font-size: 13px;
     text-decoration: none;
+    cursor: pointer;
 }.submitinsc:hover{
     opacity: 75%;
+}
+.txtResultadoSubscribe{
+    font-size: 12px;
+    position: absolute;
+    top: 2840px;
+    right: 205px;
 }
 footer{
     background-color: #070707;
@@ -356,4 +377,52 @@ footer{
     position: absolute;
     left: 551px;
     top: 70px;
+}
+.txtaboutus{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    position: absolute;
+    top: 140px;
+    left: 550px;
+}
+span{
+    background: none;
+    margin-bottom: 12px;
+}
+.titlecontactus{
+    font-weight: 500;
+    background: none;
+    position: absolute;
+    left: 800px;
+    top: 70px;
+}
+.txtcontactus{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    position: absolute;
+    top: 140px;
+    left: 800px;
+    max-width: 295px;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 230px;
+    left: 1200px;   
+}
+.linhahorizontal{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 350px;
+}
+.txtcopyright{
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    background: none;
+    font-size: 13px;
 }
